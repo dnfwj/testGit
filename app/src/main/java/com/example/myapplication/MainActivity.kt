@@ -9,4 +9,8 @@ class MainActivity : AppCompatActivity() {
         print("2342144134")
         setContentView(R.layout.activity_main)
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
 }
